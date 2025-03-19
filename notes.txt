@@ -1,3 +1,23 @@
 public class MinhaClasse {
   
 }
+
+Todo arquivo .java deve começar com a letra MAIÚSCULA. Se a palavra for composta, a segunda palavra também tem que ser maiúscula.
+ex: Calculadora.java; CalculadoraCientifica.java
+
+A classe precisa ter o mesmo nome do arquivo .java
+ex: arquivo: Classe.java
+    public class Classe {} etc...
+
+Pra criar uma variável que não muda:
+String BR = "Brasil";
+
+Pra criar uma variável que não muda:
+final String BR = "Brasil";
+
+Estrutura da variável:
+Tipo NomeBemDefinido = Atribuição;
+
+Estrutura dos métodos:
+TipoRetorno NomeObjetivo Parametro(s)
+ex: int somar (int numeroUm, int numeroDois)
