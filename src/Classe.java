@@ -1,12 +1,15 @@
 public class Classe {
   public static void main(String[] args) {
 
-    int numero1 = 35;
-    int numero2 = 36;
+    String primeiroNome = "Rafael";
+    String segundoNome = "Krewer";
 
-    int somar = numero1 + numero2;
-    int diminuir = numero1 - numero2;
-    System.out.println(numero1 + " + " + numero2 + " = " + somar);
-    System.out.println(numero1 + " - " + numero2 + " = " + diminuir);
+    String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+
+    System.out.println(nomeCompleto);
+  }
+
+  public static String nomeCompleto(String primeiroNome, String segundoNome) {
+    return primeiroNome.concat(" ").concat(segundoNome);
   }
 }
