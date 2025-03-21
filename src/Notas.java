@@ -2,9 +2,9 @@ public class Notas {
   public static void main(String[] args) {
     int nota1 = 9;
     int nota2 = 5;
-    int nota3 = 0;
+    int nota3 = 4;
 
-    int notaFinal = (nota1 + nota2 + nota3) / 3;
+    double notaFinal = (nota1 + nota2 + nota3) / 3;
 
     if (notaFinal <= 5) {
       System.out.println("Nota: " + notaFinal + " Reprovado");
