@@ -9,7 +9,7 @@ A classe precisa ter o mesmo nome do arquivo .java
 ex: arquivo: Classe.java
     public class Classe {} etc...
 
-Pra criar uma variável que não muda:
+Pra criar uma variável que muda:
 String BR = "Brasil";
 
 Pra criar uma variável que não muda:
