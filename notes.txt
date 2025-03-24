@@ -1,5 +1,7 @@
 public class MinhaClasse {
-  
+  public static void main(String[] args) {
+
+  }
 }
 
 Todo arquivo .java deve começar com a letra MAIÚSCULA. Se a palavra for composta, a segunda palavra também tem que ser maiúscula.
@@ -13,7 +15,7 @@ Pra criar uma variável que muda:
 String BR = "Brasil";
 
 Pra criar uma variável que não muda:
-final String BR = "Brasil";
+final String BR = "Brasil"; //Precisa ter o fnal e ser em MAIUSCULA
 
 Estrutura da variável:
 Tipo NomeBemDefinido = Atribuição;
@@ -21,3 +23,13 @@ Tipo NomeBemDefinido = Atribuição;
 Estrutura dos métodos:
 TipoRetorno NomeObjetivo Parametro(s)
 ex: int somar (int numeroUm, int numeroDois)
+
+Tipos Primitivos em Java:
+int: número inteiro
+byte: 
+short:
+long: número longo 
+float: valor com vírgula 
+double: valor com vírgula
+boolean: true ou false 
+ char: caractere único
