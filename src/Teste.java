@@ -1,5 +1,12 @@
-public class Classe {
+public class Teste {
   public static void main(String[] args) {
+
+  int numero10 = 10;
+  int numero32 = 32;
+
+  int resultado = numero10 * (numero32 + numero10);
+
+  System.out.println(resultado);
 
     String primeiroNome = "Rafael";
     String segundoNome = "Krewer";
@@ -10,6 +17,6 @@ public class Classe {
   }
 
   public static String nomeCompleto(String primeiroNome, String segundoNome) {
-    return primeiroNome.concat(" ").concat(segundoNome);
-  }
+    return primeiroNome + (" ") + segundoNome;
+  } 
 }
