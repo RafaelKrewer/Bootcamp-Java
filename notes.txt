@@ -27,7 +27,7 @@ ex: int somar (int numeroUm, int numeroDois)
 Tipos Primitivos em Java:
 int: número inteiro
 byte: 
-short:
+short: número curto
 long: número longo 
 float: valor com vírgula 
 double: valor com vírgula
@@ -35,3 +35,6 @@ boolean: true ou false
  char: caractere único
 
 O operador ++ aumenta 1 no número, e o -- diminui 1
+
+Operador Ternário (if () {} else{}):
+<Expressão Condicional> ? <caso condição seja true> : <caso condição seja false>
