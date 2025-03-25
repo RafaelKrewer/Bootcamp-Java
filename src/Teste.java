@@ -1,9 +1,8 @@
 public class Teste {
   public static void main(String[] args) {
-    int numero = 0;
-    numero++;
+    
 
-    for (int i = 0; i < 13; i++) {
+    for (int numero = 0; numero < 13; numero++) {
       System.out.println(numero);
 
     }
