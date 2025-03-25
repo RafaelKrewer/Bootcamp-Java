@@ -33,3 +33,5 @@ float: valor com vírgula
 double: valor com vírgula
 boolean: true ou false 
  char: caractere único
+
+O operador ++ aumenta 1 no número, e o -- diminui 1
