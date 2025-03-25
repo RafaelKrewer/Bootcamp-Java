@@ -1,9 +1,14 @@
 public class Teste {
   public static void main(String[] args) {
+    int a, b;
 
-    for (int numero = 0; numero < 100; numero++) {
-      System.out.println(numero);
+    a = 5;
+    b = 5;
 
-    }
+    String resultado = "";
+
+    resultado = a==b ? "verdadeiro" : "falso";
+
+    System.out.println(resultado);
   }
 }

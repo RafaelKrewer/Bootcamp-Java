@@ -1,3 +1,8 @@
+Atalhos:
+Ctrl+Shift+L = Seleciona todas as vezes dá letra em azul.
+
+Ctrl+Tab = Alterna as abas abertas.
+
 public class MinhaClasse {
   public static void main(String[] args) {
 
@@ -38,3 +43,5 @@ O operador ++ aumenta 1 no número, e o -- diminui 1
 
 Operador Ternário (if () {} else{}):
 <Expressão Condicional> ? <caso condição seja true> : <caso condição seja false>
+
+O operador Igual (=) sempre vai ser == qunado comparando dois valores.
