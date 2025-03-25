@@ -1,5 +1,5 @@
 Atalhos:
-Ctrl+Shift+L = Seleciona todas as vezes dá letra em azul.
+Ctrl+Shift+L = Seleciona todas as vezes da letra em azul.
 
 Ctrl+Tab = Alterna as abas abertas.
 
