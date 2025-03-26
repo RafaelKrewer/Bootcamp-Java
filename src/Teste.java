@@ -1,20 +1,21 @@
 public class Teste {
   public static void main(String[] args) {
-    int valor1, valor2;
 
-    valor1 = 1;
-    valor2 = 2;
+    boolean condicao1 = false;
+    boolean condicao2 = true;
 
-    String valor = "";
-
-    boolean simNão = valor1 == valor2;
-    if (simNão == true) {
-      valor = "Sim";
+    if (condicao1) {
+      System.out.println("condição 1 é verdadeira");
     } else {
-      valor = "Não";
+      System.out.println("condição 1 é falsa");
     }
 
-    System.out.println("Número Um é igual ao número Dois? " + valor);
+    if (condicao2) {
+      System.out.println("condição 2 é verdadeira");
+    } else {
+      System.out.println("condição 1 é falsa");
+
+    }
 
   }
 }
