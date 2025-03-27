@@ -1,7 +1,7 @@
 package Exercicios;
 
 public class TV {
-  boolean ligada = false;  
+  boolean ligada = false;
   int canal = 1;
   int volume = 15;
 
@@ -18,23 +18,22 @@ public class TV {
   }
 
   public void aumentarCanal() {
-   canal++; 
-   System.out.println("Canal+ " + canal);
+    canal++;
+    System.out.println("Canal+ " + canal);
   }
 
   public void diminuirCanal() {
-    canal--; 
+    canal--;
     System.out.println("Canal- " + canal);
-   }
+  }
 
-   public void aumentarVolume() {
+  public void aumentarVolume() {
     volume++;
     System.out.println("Volume+ " + volume);
-   }
+  }
 
-   public void diminuirVolume() {
+  public void diminuirVolume() {
     volume--;
     System.out.println("Volume- " + volume);
-   }
+  }
 }
-

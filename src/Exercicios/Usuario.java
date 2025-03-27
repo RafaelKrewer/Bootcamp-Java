@@ -4,7 +4,7 @@ public class Usuario {
   public static void main(String[] args) {
 
     TV SmartTV = new TV();
-    
+
     SmartTV.ligar();
     SmartTV.aumentarCanal();
     SmartTV.aumentarVolume();

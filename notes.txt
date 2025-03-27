@@ -50,3 +50,13 @@ Operador Ternário (if () {} else{}):
 
 O operador Igual (=) sempre vai ser == qunado comparando dois valores.
 
+Métodos:
+public class TV {
+  boolean ligada = false;  
+  int canal = 1;
+  int volume = 15;
+
+  public void ligar() {
+    ligada = true;
+  }
+}
