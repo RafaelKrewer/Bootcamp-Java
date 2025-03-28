@@ -35,13 +35,14 @@ ex: int somar (int numeroUm, int numeroDois)
 
 Tipos Primitivos em Java:
 int: número inteiro
-byte: 
+byte: um inteiro de 8 bits
 short: número curto
 long: número longo 
 float: valor com vírgula 
 double: valor com vírgula
 boolean: true ou false 
- char: caractere único
+char: caractere único
+void: ausência de valor
 
 O operador ++ aumenta 1 no número, e o -- diminui 1
 
@@ -60,3 +61,33 @@ public class TV {
     ligada = true;
   }
 }
+
+Variáveis locais: Só podem ser acessadas dentro do método em que foram declaradas.
+Variáveis globais: Podem ser acessadas de qualquer método na classe se tiverem o modificador de acesso correto.
+Escopo de classe: Variáveis declaradas em uma classe estão disponíveis para todos os métodos dessa classe. 
+Escopo de fluxo: Definido pelo fluxo de execução do programa, diferente do escopo "tradicional". 
+
+
+Palavras reservadas:
+
+public: acesso de qualquer classe.
+private: acesso apenas dentro da classe.
+protected: acesso por classes no mesmo pacote ou subclasses.
+
+abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+extends: indica a superclasse que a subclasse está estendendo.
+final: impossibilita que uma classe seja estendida, que um método seja sobescrito ou que uma variável seja reinicializada
+implements: indica as interfaces que uma classe irá implementar
+native: indica que um método está escrito em uma linguagem dependente de plataforma, como o C. Quase nunca usado
+static: faz um método ou variável pertencer à classe ao invés de às instâncias
+strictfp: usado em frente a um método ou classe para indicar que os números do ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
+synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+transient: impede a serialização de campos
+volatile: indica que uma variável pode ser alterada durante o uso de threads. Quase nunca usada
+arquivo: package, import, static
+
+  Palavras opostas ou que podem ser substituidas:
+package e import
+extends e implements
+final e abstract
+throws e throw
