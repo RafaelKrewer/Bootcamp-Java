@@ -5,8 +5,6 @@ Ctrl+Tab = Alterna as abas abertas.
 
 Rodar Java: F5
 
-
-
 public class MinhaClasse {
   public static void main(String[] args) {
 
@@ -91,3 +89,7 @@ package e import
 extends e implements
 final e abstract
 throws e throw
+
+Scanner: Serve pra o usuário digitar alguma coisa.
+Ex:
+Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
