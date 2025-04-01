@@ -1,6 +1,9 @@
 public class Teste {
   public static void main(String[] args) {
-    System.out.println("Teste");
-    
+    String nome = args[0];
+    String idade = args[1];
+
+    System.out.println("Nome: " + nome);
+    System.out.println("Idade: " + idade);
   }
 }
