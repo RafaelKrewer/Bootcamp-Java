@@ -1,9 +1,12 @@
 public class Teste {
   public static void main(String[] args) {
-    String nome = args[0];
-    String idade = args[1];
+    String nome = "Rafael";
+    int idade = 16;
 
-    System.out.println("Nome: " + nome);
-    System.out.println("Idade: " + idade);
+    if (idade < 18) {
+      System.out.println(nome + ", você é menor de idade");
+    } else if (idade > 18) {
+      System.out.println(nome + ", você é maior de idade");
+    }
   }
 }
