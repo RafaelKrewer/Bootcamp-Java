@@ -1,3 +1,4 @@
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -12,6 +13,6 @@ public class SobreMim {
     String sobrenome = scanner.next();
 
     System.out.println("Seu nome é: " + nome);
-    System.out.println("Seu sobrenome é: " + nome);
+    System.out.println("Seu sobrenome é: " + sobrenome);
   }
 }
