@@ -46,8 +46,12 @@ O operador ++ aumenta 1 no número, e o -- diminui 1
 
 Operador Ternário (if () {} else{}):
 <Expressão Condicional> ? <caso condição seja true> : <caso condição seja false>
+Ex: int nota = 8;
+String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
 
-O operador Igual (=) sempre vai ser == qunado comparando dois valores.
+
+
+O operador Igual (=) sempre vai ser == quando comparando dois valores.
 
 Métodos:
 public class TV {
